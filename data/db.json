@@ -1,0 +1,63 @@
+{
+    "livros": [
+      {
+        "id": 1,
+        "titulo": "JavaScript: The Good Parts",
+        "autor": "Douglas Crockford",
+        "ano": 2008
+      },
+      {
+        "id": 2,
+        "titulo": "You Don't Know JS: Scope & Closures",
+        "autor": "Kyle Simpson",
+        "ano": 2014
+      },
+      {
+        "id": 3,
+        "titulo": "Learning Web Design",
+        "autor": "Jennifer Niederst Robbins",
+        "ano": 2018
+      }
+    ],
+    "emprestimos": [
+      {
+        "id": 1,
+        "usuario_id": 2,
+        "livro_id": 1,
+        "data_inicio": "2023-05-10",
+        "data_fim": "2023-05-24"
+      },
+      {
+        "id": 2,
+        "usuario_id": 1,
+        "livro_id": 3,
+        "data_inicio": "2023-05-12",
+        "data_fim": "2023-05-26"
+      },
+      {
+        "id": 3,
+        "usuario_id": 3,
+        "livro_id": 2,
+        "data_inicio": "2023-05-15",
+        "data_fim": null
+      }
+    ],
+    "usuarios": [
+      {
+        "id": 1,
+        "nome": "João da Silva",
+        "email": "joao.silva@exemplo.com"
+      },
+      {
+        "id": 2,
+        "nome": "Maria Oliveira",
+        "email": "maria.oliveira@exemplo.com"
+      },
+      {
+        "id": 3,
+        "nome": "Carlos Souza",
+        "email": "carlos.souza@exemplo.com"
+      }
+    ]
+}
+  
